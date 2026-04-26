@@ -36,11 +36,11 @@ Firmware and Keymap
 
 > [!NOTE]
 > ### Charging indicators:
-> | Light               |                   State |
-> | :------------------ | ----------------------: |
-> | static GREEN        |  keyboard ON + charging |
-> | flashing GREEN/BLUE | keyboard OFF + charging |
-> | lights OFF          |       charging complete |
+> | Light               |                               State |
+> | :------------------ | ----------------------------------: |
+> | static GREEN        |        battery connected + charging |
+> | flashing GREEN/BLUE | battery disconnected + NOT charging |
+> | lights OFF          |                   charging complete |
 
 ## Keymap
 

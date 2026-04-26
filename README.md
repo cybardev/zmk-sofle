@@ -14,7 +14,7 @@ Firmware and Keymap
 1. Go to the [Actions tab](../../actions)
 1. Enable Actions on your repo
 1. Go to [Nick Coutsos' Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) and link your repo
-   - **PS**: allow access to **ONLY** your repo, **NOT** all repos
+   - **PS**: allow access to **ONLY** your newly created config repo, **NOT** all repos
 1. Edit the keymap how you want and save
 1. Check the artifacts of the [Build ZMK firmware](../../actions/workflows/build.yml) workflow that runs and completes
 1. Download `firmware.zip` and extract it on your computer

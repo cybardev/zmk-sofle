@@ -1,27 +1,47 @@
-# Sofle
+# Eyelash Sofle ZMK
 
-- [Chinese](README.md)
-- [English](README_EN.md)
+Firmware and Keymap
 
-## Update List
+> [!CAUTION]
+> If you flash your device you do so **AT YOUR OWN RISK**.
+> 
+> Make sure you have backup firmware in case this is not compatible with your board.
 
-- 2024/12/21
-  1. Added support for zmk-studio (just refresh the left hand to use).
-- 2024/10/24
-  1. Modified power supply mode to reduce power consumption.
-  2. Fixed the automatic shut-off feature for RGB power supply.
-- 2025/8/22
-  1. update the soft off.When you press the keys Q, S and Z simultaneously and hold them for 2 seconds, the keyboard will enter a deep sleep state and cannot be awakened by pressing the keys. This function can be used when carrying it outside. The activation method is to press the reset switch once.
-  2. This month, I also updated the ultra-thin versions of the corne and sofle cases. The frame and base plate have been thickened, and the opening of the reset switch has been adjusted, so that the reset switch can be easily pressed. At present, we are still conceptualizing how to design the shell with an inclined bracket.If you have carefully examined a PCB, you will notice that there are reserved interfaces for expansion IO. I wonder if anyone has been able to utilize them,I will try it！
-  3. The GIF animations on the right-hand keyboard screen have been removed, which will significantly reduce the power consumption of the right-hand keyboard.
+## Setup
 
-> If your  sofle was updated before 2025/8/22, please update to the latest firmware.
->
+1. [Fork repo](https://github.com/cybardev/zmk-sofle/fork)
+1. Navigate to your own fork and continue reading there
+1. Go to the [Actions tab](../../actions)
+1. Enable Actions on your fork
+1. Go to [Nick Coutsos' Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) and link your fork
+   - **PS**: allow access to **ONLY** your fork, **NOT** all repos
+1. Edit the keymap how you want and save
+1. Check the artifacts of the [Build ZMK firmware](../../actions/workflows/build.yml) workflow that runs and completes
+1. Download `firmware.zip` and extract it on your computer
+1. Connect the right half of your keyboard via USB to your computer
+1. Press the reset button on the side or under your connected keyboard _twice_
+1. Drag and drop `settings_reset-nice_nano_v2-zmk.uf2` onto the portable USB drive that appears and wait for it to disappear
+1. Press the reset button on the side or under your connected keyboard _twice_ again
+1. Drag and drop `nice_view-eyelash_sofle_right-zmk.uf2` onto the portable USB drive that appears and wait for it to disappear
+1. Disconnect the right half of your keyboard from the computer
+1. Connect the left half of your keyboard via USB to your computer
+1. Press the reset button on the side or under your connected keyboard _twice_
+1. Drag and drop `settings_reset-nice_nano_v2-zmk.uf2` onto the portable USB drive that appears and wait for it to disappear
+1. Press the reset button on the side or under your connected keyboard _twice_ again
+1. Drag and drop `eyelash_sofle_studio_left.uf2` onto the portable USB drive that appears and wait for it to disappear
+1. Disconnect the left half of your keyboard from the computer
+1. Flip the power switch on each side of your keyboard to the ON position
+1. Open your device's Bluetooth settings and look for "Eyelash Sofle" and connect to it
+1. ✨ **DONE** ✨ Your keyboard is now ready for use
 
-## Contact Me
+> [!NOTE]
+> ### Charging indicators:
+> | LIGHT               |                   State |
+> | :------------------ | ----------------------: |
+> | static GREEN        |  keyboard ON + charging |
+> | flashing GREEN/BLUE | keyboard OFF + charging |
+> | lights OFF          |       charging complete |
 
-For 3D printed model files or any issues and malfunctions with the keyboard, please contact [380465425@qq.com](mailto:380465425@qq.com)
+## Keymap
 
-## Sofle Keymap
-
-![Sofle键位图](keymap-drawer/eyelash_sofle.svg)
+![Eyelash Sofle Layout](keymap-drawer/eyelash_sofle.svg)

@@ -78,7 +78,7 @@
 &mkp RCLK  &mo 1   &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &mkp LCLK        &kp BACKSPACE  &kp RIGHT_ALT  &kp ENTER  &kp RIGHT_SHIFT  &kp RIGHT_GUI
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
             display-name = "LAYER0";
         };
 

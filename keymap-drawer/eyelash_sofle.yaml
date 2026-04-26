@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - +
   - $$mdi:mouse-right-click-outline$$
-  - LAYER1
   - $$mdi:apple-keyboard-control$$
+  - LAYER1
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - $$mdi:keyboard-space$$
@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - LAYER1
   - RIGHT GUI
   LAYER1:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -119,8 +119,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - MUTE
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 28, 40]

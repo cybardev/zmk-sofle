@@ -9,12 +9,12 @@ Firmware and Keymap
 
 ## Setup
 
-1. [Fork repo](https://github.com/cybardev/zmk-sofle/fork)
-1. Navigate to your own fork and continue reading there
+1. [Create a new repository from this template](https://github.com/new?template_name=zmk-sofle&template_owner=cybardev)
+1. Navigate to the newly created repo under your own account and continue reading there
 1. Go to the [Actions tab](../../actions)
-1. Enable Actions on your fork
-1. Go to [Nick Coutsos' Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) and link your fork
-   - **PS**: allow access to **ONLY** your fork, **NOT** all repos
+1. Enable Actions on your repo
+1. Go to [Nick Coutsos' Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) and link your repo
+   - **PS**: allow access to **ONLY** your repo, **NOT** all repos
 1. Edit the keymap how you want and save
 1. Check the artifacts of the [Build ZMK firmware](../../actions/workflows/build.yml) workflow that runs and completes
 1. Download `firmware.zip` and extract it on your computer
@@ -36,7 +36,7 @@ Firmware and Keymap
 
 > [!NOTE]
 > ### Charging indicators:
-> | LIGHT               |                   State |
+> | Light               |                   State |
 > | :------------------ | ----------------------: |
 > | static GREEN        |  keyboard ON + charging |
 > | flashing GREEN/BLUE | keyboard OFF + charging |
